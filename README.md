@@ -1,10 +1,10 @@
-# Saberes Marajoaras - Acervo Cultural
+# AMPAC - Acervo Marajoara de Patrimônio Artístico e Cultural
 
 Site dedicado à preservação e difusão dos saberes tradicionais da cultura marajoara, patrimônio cultural do estado do Pará.
 
 ## Sobre o Projeto
 
-Inspirado no design do Acervo da Laje de Salvador, este site apresenta os conhecimentos ancestrais da Ilha de Marajó através de uma navegação vertical com categorias em destaque visual.
+Inspirado no design do Fest.ce Marajó e do Acervo da Laje de Salvador, o AMPAC apresenta os conhecimentos ancestrais da Ilha de Marajó através de uma navegação vertical com categorias em destaque visual e tipografia bold impactante.
 
 ## Categorias de Saberes
 
