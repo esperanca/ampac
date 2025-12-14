@@ -686,8 +686,8 @@ section {
 
 .footer-pattern {
     height: 120px;
-    background-image: url('images/footer-pattern.svg');
-    background-size: 200px 120px;
+    background-image: url('images/footer-pattern-original.png');
+    background-size: auto 120px;
     background-repeat: repeat-x;
     background-position: center;
     position: relative;

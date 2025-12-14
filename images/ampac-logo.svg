@@ -1,8 +1,55 @@
-<svg width="180" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50">
-  <text x="5" y="38"
+<svg width="300" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <!-- Pássaro Guará Vermelho -->
+  <g transform="translate(10, 15)">
+    <!-- Corpo do pássaro -->
+    <ellipse cx="25" cy="30" rx="15" ry="18" fill="#C41E3A"/>
+
+    <!-- Cabeça -->
+    <circle cx="25" cy="15" r="10" fill="#C41E3A"/>
+
+    <!-- Bico -->
+    <path d="M 25,10 L 30,8 L 28,12 Z" fill="#8B4513"/>
+
+    <!-- Olho -->
+    <circle cx="27" cy="14" r="2" fill="#000000"/>
+    <circle cx="27.5" cy="13.5" r="0.8" fill="#FFFFFF"/>
+
+    <!-- Asa esquerda (levantada) -->
+    <path d="M 12,25 Q 5,15 8,8 L 15,18 Z" fill="#A0171F"/>
+
+    <!-- Asa direita -->
+    <path d="M 38,28 Q 45,20 50,18 L 42,30 Z" fill="#A0171F"/>
+
+    <!-- Penas da cauda -->
+    <path d="M 20,45 L 15,55 L 18,48 Z" fill="#A0171F"/>
+    <path d="M 25,48 L 22,58 L 25,50 Z" fill="#C41E3A"/>
+    <path d="M 30,45 L 35,55 L 32,48 Z" fill="#A0171F"/>
+
+    <!-- Pernas -->
+    <line x1="20" y1="45" x2="18" y2="52" stroke="#8B4513" stroke-width="2"/>
+    <line x1="30" y1="45" x2="32" y2="52" stroke="#8B4513" stroke-width="2"/>
+
+    <!-- Pés -->
+    <path d="M 16,52 L 14,52 M 18,52 L 20,52 M 18,52 L 18,54" stroke="#8B4513" stroke-width="1.5"/>
+    <path d="M 30,52 L 28,52 M 32,52 L 34,52 M 32,52 L 32,54" stroke="#8B4513" stroke-width="1.5"/>
+
+    <!-- Detalhes das asas -->
+    <path d="M 10,20 Q 8,15 10,12" stroke="#8B0000" stroke-width="1" fill="none"/>
+    <path d="M 12,24 Q 10,20 11,16" stroke="#8B0000" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- Texto AMPAC -->
+  <text x="75" y="40"
         font-family="Impact, 'Arial Black', sans-serif"
         font-weight="900"
-        font-size="42"
-        letter-spacing="4"
-        fill="#8B4513">AMPAC</text>
+        font-size="36"
+        letter-spacing="2"
+        fill="#000000">AMPAC</text>
+
+  <!-- Subtítulo -->
+  <text x="75" y="58"
+        font-family="Arial, sans-serif"
+        font-size="9"
+        letter-spacing="0.5"
+        fill="#333333">Associação dos Moradores do Pacoval</text>
 </svg>
