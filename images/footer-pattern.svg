@@ -1,0 +1,123 @@
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Padrão repetível de 200px de largura -->
+    <pattern id="marajoara-footer" x="0" y="0" width="200" height="120" patternUnits="userSpaceOnUse">
+      <rect width="200" height="120" fill="white"/>
+
+      <!-- Faixa Superior - Padrão de Escadas/Degraus -->
+      <g>
+        <!-- Unidade 1 (0-50px) - Vermelho -->
+        <rect x="0" y="0" width="50" height="40" fill="#D32F2F"/>
+        <path d="M 0,40 L 0,35 L 5,35 L 5,30 L 10,30 L 10,25 L 15,25 L 15,20 L 20,20 L 20,15 L 25,15 L 25,10 L 30,10 L 30,5 L 35,5 L 35,0"
+              fill="white" stroke="none"/>
+        <path d="M 50,40 L 50,35 L 45,35 L 45,30 L 40,30 L 40,25 L 35,25 L 35,20 L 30,20 L 30,15 L 25,15 L 25,10 L 20,10 L 20,5 L 15,5 L 15,0"
+              fill="white" stroke="none"/>
+        <!-- Quadrados vermelhos internos -->
+        <rect x="10" y="8" width="8" height="8" fill="#D32F2F"/>
+        <rect x="32" y="8" width="8" height="8" fill="#D32F2F"/>
+        <rect x="21" y="18" width="8" height="8" fill="#D32F2F"/>
+
+        <!-- Unidade 2 (50-100px) - Preto -->
+        <rect x="50" y="0" width="50" height="40" fill="#000000"/>
+        <path d="M 50,40 L 50,35 L 55,35 L 55,30 L 60,30 L 60,25 L 65,25 L 65,20 L 70,20 L 70,15 L 75,15 L 75,10 L 80,10 L 80,5 L 85,5 L 85,0"
+              fill="white" stroke="none"/>
+        <path d="M 100,40 L 100,35 L 95,35 L 95,30 L 90,30 L 90,25 L 85,25 L 85,20 L 80,20 L 80,15 L 75,15 L 75,10 L 70,10 L 70,5 L 65,5 L 65,0"
+              fill="white" stroke="none"/>
+        <!-- Quadrados pretos internos -->
+        <rect x="60" y="8" width="8" height="8" fill="#000000"/>
+        <rect x="82" y="8" width="8" height="8" fill="#000000"/>
+        <rect x="71" y="18" width="8" height="8" fill="#000000"/>
+
+        <!-- Unidade 3 (100-150px) - Vermelho -->
+        <rect x="100" y="0" width="50" height="40" fill="#D32F2F"/>
+        <path d="M 100,40 L 100,35 L 105,35 L 105,30 L 110,30 L 110,25 L 115,25 L 115,20 L 120,20 L 120,15 L 125,15 L 125,10 L 130,10 L 130,5 L 135,5 L 135,0"
+              fill="white" stroke="none"/>
+        <path d="M 150,40 L 150,35 L 145,35 L 145,30 L 140,30 L 140,25 L 135,25 L 135,20 L 130,20 L 130,15 L 125,15 L 125,10 L 120,10 L 120,5 L 115,5 L 115,0"
+              fill="white" stroke="none"/>
+        <!-- Quadrados vermelhos internos -->
+        <rect x="110" y="8" width="8" height="8" fill="#D32F2F"/>
+        <rect x="132" y="8" width="8" height="8" fill="#D32F2F"/>
+        <rect x="121" y="18" width="8" height="8" fill="#D32F2F"/>
+
+        <!-- Unidade 4 (150-200px) - Preto -->
+        <rect x="150" y="0" width="50" height="40" fill="#000000"/>
+        <path d="M 150,40 L 150,35 L 155,35 L 155,30 L 160,30 L 160,25 L 165,25 L 165,20 L 170,20 L 170,15 L 175,15 L 175,10 L 180,10 L 180,5 L 185,5 L 185,0"
+              fill="white" stroke="none"/>
+        <path d="M 200,40 L 200,35 L 195,35 L 195,30 L 190,30 L 190,25 L 185,25 L 185,20 L 180,20 L 180,15 L 175,15 L 175,10 L 170,10 L 170,5 L 165,5 L 165,0"
+              fill="white" stroke="none"/>
+        <!-- Quadrados pretos internos -->
+        <rect x="160" y="8" width="8" height="8" fill="#000000"/>
+        <rect x="182" y="8" width="8" height="8" fill="#000000"/>
+        <rect x="171" y="18" width="8" height="8" fill="#000000"/>
+      </g>
+
+      <!-- Faixa Central - Triângulos Alternados -->
+      <g>
+        <rect x="0" y="40" width="200" height="40" fill="white"/>
+
+        <!-- Borda superior preta -->
+        <rect x="0" y="40" width="200" height="3" fill="#000000"/>
+        <!-- Borda inferior preta -->
+        <rect x="0" y="77" width="200" height="3" fill="#000000"/>
+
+        <!-- Triângulos Vermelhos (apontando para baixo) -->
+        <polygon points="12.5,45 25,70 0,70" fill="#D32F2F"/>
+        <polygon points="62.5,45 75,70 50,70" fill="#D32F2F"/>
+        <polygon points="112.5,45 125,70 100,70" fill="#D32F2F"/>
+        <polygon points="162.5,45 175,70 150,70" fill="#D32F2F"/>
+
+        <!-- Triângulos Pretos (apontando para cima) -->
+        <polygon points="37.5,75 50,50 25,50" fill="#000000"/>
+        <polygon points="87.5,75 100,50 75,50" fill="#000000"/>
+        <polygon points="137.5,75 150,50 125,50" fill="#000000"/>
+        <polygon points="187.5,75 200,50 175,50" fill="#000000"/>
+      </g>
+
+      <!-- Faixa Inferior - Padrão de Escadas/Degraus (espelhado) -->
+      <g>
+        <!-- Unidade 1 (0-50px) - Preto -->
+        <rect x="0" y="80" width="50" height="40" fill="#000000"/>
+        <path d="M 0,80 L 0,85 L 5,85 L 5,90 L 10,90 L 10,95 L 15,95 L 15,100 L 20,100 L 20,105 L 25,105 L 25,110 L 30,110 L 30,115 L 35,115 L 35,120"
+              fill="white" stroke="none"/>
+        <path d="M 50,80 L 50,85 L 45,85 L 45,90 L 40,90 L 40,95 L 35,95 L 35,100 L 30,100 L 30,105 L 25,105 L 25,110 L 20,110 L 20,115 L 15,115 L 15,120"
+              fill="white" stroke="none"/>
+        <rect x="10" y="104" width="8" height="8" fill="#000000"/>
+        <rect x="32" y="104" width="8" height="8" fill="#000000"/>
+        <rect x="21" y="94" width="8" height="8" fill="#000000"/>
+
+        <!-- Unidade 2 (50-100px) - Vermelho -->
+        <rect x="50" y="80" width="50" height="40" fill="#D32F2F"/>
+        <path d="M 50,80 L 50,85 L 55,85 L 55,90 L 60,90 L 60,95 L 65,95 L 65,100 L 70,100 L 70,105 L 75,105 L 75,110 L 80,110 L 80,115 L 85,115 L 85,120"
+              fill="white" stroke="none"/>
+        <path d="M 100,80 L 100,85 L 95,85 L 95,90 L 90,90 L 90,95 L 85,95 L 85,100 L 80,100 L 80,105 L 75,105 L 75,110 L 70,110 L 70,115 L 65,115 L 65,120"
+              fill="white" stroke="none"/>
+        <rect x="60" y="104" width="8" height="8" fill="#D32F2F"/>
+        <rect x="82" y="104" width="8" height="8" fill="#D32F2F"/>
+        <rect x="71" y="94" width="8" height="8" fill="#D32F2F"/>
+
+        <!-- Unidade 3 (100-150px) - Preto -->
+        <rect x="100" y="80" width="50" height="40" fill="#000000"/>
+        <path d="M 100,80 L 100,85 L 105,85 L 105,90 L 110,90 L 110,95 L 115,95 L 115,100 L 120,100 L 120,105 L 125,105 L 125,110 L 130,110 L 130,115 L 135,115 L 135,120"
+              fill="white" stroke="none"/>
+        <path d="M 150,80 L 150,85 L 145,85 L 145,90 L 140,90 L 140,95 L 135,95 L 135,100 L 130,100 L 130,105 L 125,105 L 125,110 L 120,110 L 120,115 L 115,115 L 115,120"
+              fill="white" stroke="none"/>
+        <rect x="110" y="104" width="8" height="8" fill="#000000"/>
+        <rect x="132" y="104" width="8" height="8" fill="#000000"/>
+        <rect x="121" y="94" width="8" height="8" fill="#000000"/>
+
+        <!-- Unidade 4 (150-200px) - Vermelho -->
+        <rect x="150" y="80" width="50" height="40" fill="#D32F2F"/>
+        <path d="M 150,80 L 150,85 L 155,85 L 155,90 L 160,90 L 160,95 L 165,95 L 165,100 L 170,100 L 170,105 L 175,105 L 175,110 L 180,110 L 180,115 L 185,115 L 185,120"
+              fill="white" stroke="none"/>
+        <path d="M 200,80 L 200,85 L 195,85 L 195,90 L 190,90 L 190,95 L 185,95 L 185,100 L 180,100 L 180,105 L 175,105 L 175,110 L 170,110 L 170,115 L 165,115 L 165,120"
+              fill="white" stroke="none"/>
+        <rect x="160" y="104" width="8" height="8" fill="#D32F2F"/>
+        <rect x="182" y="104" width="8" height="8" fill="#D32F2F"/>
+        <rect x="171" y="94" width="8" height="8" fill="#D32F2F"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Aplica o padrão -->
+  <rect width="800" height="120" fill="url(#marajoara-footer)"/>
+</svg>
