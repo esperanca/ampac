@@ -665,45 +665,12 @@ section {
 }
 
 .footer-pattern {
-    height: 60px;
-    background: linear-gradient(90deg,
-        transparent 0%, transparent 20%,
-        var(--primary-color) 20%, var(--primary-color) 22%,
-        transparent 22%, transparent 28%,
-        var(--primary-color) 28%, var(--primary-color) 30%,
-        transparent 30%, transparent 36%,
-        var(--primary-color) 36%, var(--primary-color) 38%,
-        transparent 38%, transparent 44%,
-        var(--primary-color) 44%, var(--primary-color) 46%,
-        transparent 46%, transparent 52%,
-        var(--primary-color) 52%, var(--primary-color) 54%,
-        transparent 54%, transparent 60%,
-        var(--primary-color) 60%, var(--primary-color) 62%,
-        transparent 62%, transparent 68%,
-        var(--primary-color) 68%, var(--primary-color) 70%,
-        transparent 70%, transparent 76%,
-        var(--primary-color) 76%, var(--primary-color) 78%,
-        transparent 78%, transparent 84%,
-        var(--primary-color) 84%, var(--primary-color) 86%,
-        transparent 86%, transparent 92%,
-        var(--primary-color) 92%, var(--primary-color) 94%,
-        transparent 94%, transparent 100%
-    );
-    background-size: 100px 60px;
+    height: 100px;
+    background-image: url('images/marajoara-pattern.svg');
+    background-size: 200px 100px;
+    background-repeat: repeat;
+    background-position: center;
     position: relative;
-}
-
-.footer-pattern::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image:
-        repeating-linear-gradient(45deg, transparent, transparent 15px, var(--secondary-color) 15px, var(--secondary-color) 17px),
-        repeating-linear-gradient(-45deg, transparent, transparent 15px, var(--accent-red) 15px, var(--accent-red) 17px);
-    opacity: 0.3;
 }
 
 .footer-pattern-bottom {
@@ -892,41 +859,20 @@ section {
 /* Ilustrações Decorativas */
 .illustration-divider {
     text-align: center;
-    margin: 60px 0;
-    padding: 40px 0;
+    margin: 100px 0;
+    padding: 60px 0;
 }
 
 .illustration-divider img {
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.6;
     transition: opacity 0.3s ease;
 }
 
 .illustration-divider img:hover {
-    opacity: 1;
-}
-
-.illustration-float {
-    position: absolute;
-    opacity: 0.15;
-    pointer-events: none;
-    z-index: 0;
-}
-
-.illustration-float.left {
-    left: -50px;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 200px;
-}
-
-.illustration-float.right {
-    right: -50px;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 200px;
+    opacity: 0.9;
 }
 
 /* Animações */

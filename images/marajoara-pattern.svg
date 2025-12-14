@@ -1,0 +1,135 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Padrão Marajoara Repetível -->
+    <pattern id="marajoara" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect width="200" height="200" fill="white"/>
+
+      <!-- Espiral Esquerda -->
+      <g transform="translate(30, 100)">
+        <circle cx="0" cy="0" r="3" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <circle cx="0" cy="0" r="13" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <circle cx="0" cy="0" r="18" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <path d="M 0,-18 Q 18,-18 18,0" fill="none" stroke="#8B4513" stroke-width="2"/>
+      </g>
+
+      <!-- Espiral Direita -->
+      <g transform="translate(170, 100)">
+        <circle cx="0" cy="0" r="3" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <circle cx="0" cy="0" r="13" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <circle cx="0" cy="0" r="18" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <path d="M 0,-18 Q -18,-18 -18,0" fill="none" stroke="#8B4513" stroke-width="2"/>
+      </g>
+
+      <!-- Quadrado Central -->
+      <g transform="translate(100, 100)">
+        <!-- Quadrado Externo -->
+        <rect x="-30" y="-30" width="60" height="60" fill="none" stroke="#8B4513" stroke-width="3"/>
+
+        <!-- Quadrado Interno com Hachuras -->
+        <rect x="-25" y="-25" width="50" height="50" fill="none" stroke="#8B4513" stroke-width="2"/>
+
+        <!-- Hachuras nas bordas do quadrado interno -->
+        <g>
+          <line x1="-25" y1="-22" x2="-22" y2="-25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="-25" y1="-16" x2="-16" y2="-25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="-25" y1="-10" x2="-10" y2="-25" stroke="#8B4513" stroke-width="1.5"/>
+
+          <line x1="25" y1="-22" x2="22" y2="-25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="25" y1="-16" x2="16" y2="-25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="25" y1="-10" x2="10" y2="-25" stroke="#8B4513" stroke-width="1.5"/>
+
+          <line x1="-25" y1="22" x2="-22" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="-25" y1="16" x2="-16" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="-25" y1="10" x2="-10" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+
+          <line x1="25" y1="22" x2="22" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="25" y1="16" x2="16" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+          <line x1="25" y1="10" x2="10" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+        </g>
+
+        <!-- Divisões Internas -->
+        <line x1="-18" y1="0" x2="-8" y2="0" stroke="#8B4513" stroke-width="2"/>
+        <line x1="18" y1="0" x2="8" y2="0" stroke="#8B4513" stroke-width="2"/>
+        <line x1="0" y1="-18" x2="0" y2="-8" stroke="#8B4513" stroke-width="2"/>
+        <line x1="0" y1="18" x2="0" y2="8" stroke="#8B4513" stroke-width="2"/>
+
+        <!-- Pequenos Quadrados nos Cantos Internos -->
+        <rect x="-15" y="-15" width="8" height="8" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+        <rect x="7" y="-15" width="8" height="8" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+        <rect x="-15" y="7" width="8" height="8" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+        <rect x="7" y="7" width="8" height="8" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+
+        <!-- Diamantes/Estrelas Centrais -->
+        <circle cx="0" cy="0" r="2" fill="#8B4513"/>
+        <polygon points="0,-6 1.5,-1.5 6,0 1.5,1.5 0,6 -1.5,1.5 -6,0 -1.5,-1.5" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+      </g>
+
+      <!-- Linhas Diagonais Conectoras com Hachuras -->
+      <g>
+        <!-- Superior Esquerda -->
+        <line x1="50" y1="80" x2="70" y2="70" stroke="#8B4513" stroke-width="2.5"/>
+        <line x1="52" y1="78" x2="54" y2="76" stroke="#8B4513" stroke-width="1"/>
+        <line x1="56" y1="76" x2="58" y2="74" stroke="#8B4513" stroke-width="1"/>
+        <line x1="60" y1="74" x2="62" y2="72" stroke="#8B4513" stroke-width="1"/>
+        <line x1="64" y1="72" x2="66" y2="70" stroke="#8B4513" stroke-width="1"/>
+
+        <!-- Superior Direita -->
+        <line x1="150" y1="80" x2="130" y2="70" stroke="#8B4513" stroke-width="2.5"/>
+        <line x1="148" y1="78" x2="146" y2="76" stroke="#8B4513" stroke-width="1"/>
+        <line x1="144" y1="76" x2="142" y2="74" stroke="#8B4513" stroke-width="1"/>
+        <line x1="140" y1="74" x2="138" y2="72" stroke="#8B4513" stroke-width="1"/>
+        <line x1="136" y1="72" x2="134" y2="70" stroke="#8B4513" stroke-width="1"/>
+
+        <!-- Inferior Esquerda -->
+        <line x1="50" y1="120" x2="70" y2="130" stroke="#8B4513" stroke-width="2.5"/>
+        <line x1="52" y1="122" x2="54" y2="124" stroke="#8B4513" stroke-width="1"/>
+        <line x1="56" y1="124" x2="58" y2="126" stroke="#8B4513" stroke-width="1"/>
+        <line x1="60" y1="126" x2="62" y2="128" stroke="#8B4513" stroke-width="1"/>
+        <line x1="64" y1="128" x2="66" y2="130" stroke="#8B4513" stroke-width="1"/>
+
+        <!-- Inferior Direita -->
+        <line x1="150" y1="120" x2="130" y2="130" stroke="#8B4513" stroke-width="2.5"/>
+        <line x1="148" y1="122" x2="146" y2="124" stroke="#8B4513" stroke-width="1"/>
+        <line x1="144" y1="124" x2="142" y2="126" stroke="#8B4513" stroke-width="1"/>
+        <line x1="140" y1="126" x2="138" y2="128" stroke="#8B4513" stroke-width="1"/>
+        <line x1="136" y1="128" x2="134" y2="130" stroke="#8B4513" stroke-width="1"/>
+      </g>
+
+      <!-- Elementos Geométricos Adicionais nos Cantos -->
+      <!-- Canto Superior Esquerdo -->
+      <g transform="translate(15, 15)">
+        <rect x="0" y="0" width="20" height="20" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <line x1="0" y1="0" x2="20" y2="20" stroke="#8B4513" stroke-width="1"/>
+        <line x1="20" y1="0" x2="0" y2="20" stroke="#8B4513" stroke-width="1"/>
+      </g>
+
+      <!-- Canto Superior Direito -->
+      <g transform="translate(165, 15)">
+        <rect x="0" y="0" width="20" height="20" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <line x1="5" y1="0" x2="5" y2="20" stroke="#8B4513" stroke-width="1"/>
+        <line x1="10" y1="0" x2="10" y2="20" stroke="#8B4513" stroke-width="1"/>
+        <line x1="15" y1="0" x2="15" y2="20" stroke="#8B4513" stroke-width="1"/>
+      </g>
+
+      <!-- Canto Inferior Esquerdo -->
+      <g transform="translate(15, 165)">
+        <rect x="0" y="0" width="20" height="20" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <line x1="0" y1="5" x2="20" y2="5" stroke="#8B4513" stroke-width="1"/>
+        <line x1="0" y1="10" x2="20" y2="10" stroke="#8B4513" stroke-width="1"/>
+        <line x1="0" y1="15" x2="20" y2="15" stroke="#8B4513" stroke-width="1"/>
+      </g>
+
+      <!-- Canto Inferior Direito -->
+      <g transform="translate(165, 165)">
+        <rect x="0" y="0" width="20" height="20" fill="none" stroke="#8B4513" stroke-width="2"/>
+        <rect x="5" y="5" width="10" height="10" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+        <circle cx="10" cy="10" r="2" fill="#8B4513"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Aplica o padrão -->
+  <rect width="400" height="200" fill="url(#marajoara)"/>
+</svg>
